@@ -1,0 +1,42 @@
+.card {
+    background-color: rgb(172, 185, 255);
+    border-radius: 1rem;
+    display: flex;
+    gap: 4rem;
+    height: 30rem;
+    width: 50rem;
+    margin: 2rem auto;
+    padding: 4rem;
+}
+
+.poster {
+    border: 8px solid black;
+    box-shadow: 0 24px 32px -16px;
+}
+
+.card h2 {
+    font-size: 1.75rem;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+.card button {
+    background-color: #121212;
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px;
+    color: #ffff;
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: .75em 1.25em;
+    transition:.3s;
+}
+
+.card button:hover{
+    cursor: pointer;
+    margin-left: .5rem;
+}
